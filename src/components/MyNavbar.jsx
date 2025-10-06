@@ -5,8 +5,12 @@ const MyNavbar = () => {
         <nav>
             <ul>
                 <li>
-                    <Link to="/">Homepage</Link>
+                    <Link to="/">Homepage</Link>         
+                </li>
+                <li>
                     <NavLink to="/chisiamo">ChiSiamo</NavLink>
+                </li>
+                <li>
                     <NavLink tp="/prodotti">Prodotti</NavLink>
                 </li>
             </ul>
