@@ -1,9 +1,14 @@
 {/*Chi siamo*/}
 {/*Implementiamo una Navbar visibile in tutte le pagine per navigare tra di esse*/}
 
+import MyNavbar from "../components/MyNavbar"; {/*Import della Navbar*/}
+
 const ChiSiamo = () => {
     return (
-        <div>Chi Siamo</div>
+        <>
+            <div><MyNavbar/></div>
+            <div>Chi Siamo</div>
+        </>
     )
 }
 

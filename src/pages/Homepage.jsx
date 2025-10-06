@@ -11,11 +11,6 @@ const HomePage = () => {
             </header>
             <main>
                 <h1>BENVENUTI</h1>
-                <ul>
-                    <li>ciao</li>
-                    <li>ciao</li>
-                    <li>ciao</li>
-                </ul>
             </main>
         </>
     )
