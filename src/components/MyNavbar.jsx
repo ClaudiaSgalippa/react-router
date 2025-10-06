@@ -10,15 +10,15 @@ import {Link, NavLink} from "react-router-dom"; {/*Import dei componenti di navi
 
 const MyNavbar = () => {
     return (
-        <nav>
-            <ul>
-                <li>
-                    <Link to="/">Homepage</Link>         
+        <nav className="containerNav">
+            <ul className="ulStyle">
+                <li className="liStyle">
+                    <NavLink to="/">Homepage</NavLink>    
                 </li>
-                <li>
-                    <NavLink to="/chisiamo">ChiSiamo</NavLink>
+                <li className="liStyle">
+                    <NavLink to="/chisiamo">Chi Siamo</NavLink>
                 </li>
-                <li>
+                <li className="liStyle">
                     <NavLink to="/prodotti">Prodotti</NavLink>
                 </li>
             </ul>

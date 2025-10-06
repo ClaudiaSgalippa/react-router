@@ -8,7 +8,7 @@ const MyProductCard = (props) => { {/*Passaggio dati*/}
             </div>
             <div className="productInfo">
                 <p className="productTitle">{product.title}</p>
-                <p className="productPrice">{product.price}</p>
+                <p className="productPrice">{product.price}€</p>
             </div>
         </div>
     )

@@ -7,8 +7,8 @@ import MyProducts from "../components/MyProducts"; {/*Import dei prodotti*/}
 const Prodotti = () => {
     return (
         <>
-            <div><MyNavbar/></div>
-            <div>Prodotti</div>
+            <div className="displayNav"><MyNavbar/></div>
+            <h2 className="divPages">PRODOTTI DISPONIBILI NOW!</h2>
             <MyProducts/>
         </>
     )
