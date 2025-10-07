@@ -2,25 +2,21 @@
 
 import {Link, NavLink} from "react-router-dom"; {/*Import dei componenti di navigazione per routing (tramite libreria React)*/}
 
-{/*const links = [
-    {path:"/", label:"Homepage"},
+const links = [ 
+    {path:"/", label:"Homepage"}, 
     {path:"/chisiamo", label:"ChiSiamo"},
     {path:"/prodotti", label:"Prodotti"}
-] PROVA DI MAPPATURA - DA CONTROLLARE, error: hook.js:608 Each child in a list should have a unique "key" prop.*/}
+]; {/*Mappatura degli oggetti*/}
 
 const MyNavbar = () => {
     return (
         <nav className="containerNav">
             <ul className="ulStyle">
-                <li className="liStyle">
-                    <NavLink to="/">Homepage</NavLink>    
-                </li>
-                <li className="liStyle">
-                    <NavLink to="/chisiamo">Chi Siamo</NavLink>
-                </li>
-                <li className="liStyle">
-                    <NavLink to="/prodotti">Prodotti</NavLink>
-                </li>
+                {links.map(link => (
+                    <li key={link.path} className="liStyle">
+                        <NavLink to={link.path}>{link.label}</NavLink>
+                    </li> 
+                ))}
             </ul>
         </nav>
     )
