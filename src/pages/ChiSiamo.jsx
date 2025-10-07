@@ -1,12 +1,9 @@
 {/*Chi siamo*/}
 {/*Implementiamo una Navbar visibile in tutte le pagine per navigare tra di esse*/}
 
-import MyNavbar from "../components/MyNavbar"; {/*Import della Navbar*/}
-
 const ChiSiamo = () => {
     return (
         <>
-            <div className="displayNav"><MyNavbar/></div>
             <div className="divPages">
                 <h2>CHI SIAMO?</h2>
             </div>
