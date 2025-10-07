@@ -2,11 +2,11 @@ import MyProductCard from "./MyProductCard"; {/*Import della card del prodotto*/
 import {useState, useEffect} from "react"; {/*Import degli hook useState e useEffect*/}
 
 export default function ProductsList() { {/*Creazione della variabile di stato*/}
-    const [productsList, setProductList] = useState ([]); {/*Array vuoto per inserire i dati dalla chiamata*/}
+    const [products, setProducts] = useState ([]); {/*Array vuoto per inserire i dati dalla chiamata*/}
 
     function fetchProducts () { {/*Chiamata AXIOS, se la risposta sarà positiva inserisci l'array richiamato, se negativa dai errore in console.log*/}
         axios.get("https://fakestoreapi.com/products")
-            .then ((res) => setProductList(res.data))
+            .then ((res) => setProducts(res.data))
             .catch ((error) => console.log(error))
     }
 
@@ -17,7 +17,7 @@ export default function ProductsList() { {/*Creazione della variabile di stato*/
     return (
         <div className="">
             <div className="containerCard">
-                {productsList.map ((product) => (
+                {products.map ((product) => (
                     <MyProductCard key={product.id} product={product}/>
                 ))}
             </div>

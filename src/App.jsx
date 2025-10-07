@@ -17,7 +17,7 @@ function App() {
             <Route path="/chisiamo" element={<ChiSiamo/>}/>
             <Route path="/prodotti"> {/*Inserimento della nuova rotta padre*/}
               <Route index element={<Prodotti/>}/> {/*Inserimento della nuova sottorotta figlia*/}
-              <Route path="/:id" element={<DettaglioProdotto/>}/> {/*Inserimento della sottorotta dinamica con raggruppamento*/}
+              <Route path=":id" element={<DettaglioProdotto/>}/> {/*Inserimento della sottorotta dinamica con raggruppamento*/}
             </Route> 
           </Route>
         </Routes>
