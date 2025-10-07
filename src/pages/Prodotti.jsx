@@ -3,7 +3,7 @@
 
 import MyProducts from "../components/MyProducts"; {/*Import dei prodotti*/}
 
-const Prodotti = () => {
+export default function Prodotti() {
     return (
         <>
             <h2 className="divPages">PRODOTTI DISPONIBILI NOW!</h2>
@@ -11,5 +11,3 @@ const Prodotti = () => {
         </>
     )
 }
-
-export default Prodotti

@@ -8,7 +8,7 @@ export default function DefaultLayout() {
                 <MyNavbar/>
             </header>
             <main>
-                <Outlet/>
+                <Outlet/> {/*Componente "segnaposto" utilizzato per il routing nidificato*/}
             </main>
         </>
     )

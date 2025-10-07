@@ -1,7 +1,8 @@
 {/*Chi siamo*/}
 {/*Implementiamo una Navbar visibile in tutte le pagine per navigare tra di esse*/}
 
-const ChiSiamo = () => {
+export default function ChiSiamo() {
+
     return (
         <>
             <div className="divPages">
@@ -13,5 +14,3 @@ const ChiSiamo = () => {
         </>
     )
 }
-
-export default ChiSiamo

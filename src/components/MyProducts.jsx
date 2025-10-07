@@ -22,6 +22,6 @@ export default function ProductsList() { {/*Creazione della variabile di stato*/
                 ))}
             </div>
         </div>
-    );
+    )
 }
 

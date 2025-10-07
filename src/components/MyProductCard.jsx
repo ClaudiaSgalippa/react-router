@@ -1,7 +1,6 @@
 import {Link} from "react-router-dom"; {/*Import dei componenti di navigazione per routing (tramite libreria React)*/}
 
-//export default function MyProductCard(props) {...}
-const MyProductCard = (props) => { {/*Passaggio dati*/}
+export default function MyProductCard(props) { {/*Passaggio dati da padre a figlio*/}
     const {product} = props;
 
     return (
@@ -18,5 +17,3 @@ const MyProductCard = (props) => { {/*Passaggio dati*/}
         </Link>    
     )
 }
-
-export default MyProductCard
