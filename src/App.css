@@ -62,6 +62,7 @@ a {
 .divPages img {
   box-shadow: 0 0px 20px #2a5eb2, 0 0px 20px #10be84;
   margin-top: 40px;
+  width: 500px;
   border-radius: 20px;
 }
 
