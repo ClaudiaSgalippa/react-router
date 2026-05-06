@@ -1,16 +1,57 @@
-# React + Vite
+🤡 L'e-commerce "memone" che mancava (a nessuno) 🤡
+Quando hai campo libero sulla creazione di un sito di vendita di prodotti on-line, non lo fai più assurdo possibile? Così la mia testa ha deciso di mettere assieme alcuni dei personaggi "virali" degli ultimi anni, conditi da una "piccola" citazione di cultura pop anni '90. 
+Di base però è la realizzazione frontend di un e-commerce e l’utilizzo di un fake store API come backend fittizio.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+💰 Cosa puoi fare 💰
+Attravero la navbar interattiva, possiamo addentrarci nel sito per conoscerne i proprietari e i prodotti che vendono. Scelto l'item, è possibile leggerne le peculiarità tramite un semplice click!
 
-Currently, two official plugins are available:
+🌳 Struttura del progetto 🌳
+REACT-ROUTER/
+│
+├── node_modules/
+│
+├── public/
+│ └── vite.svg
+│
+├── src/
+│ ├── assets/
+│ │ └── react.svg
+│ │
+│ ├── components/
+│ │ ├── MyNavbar.jsx
+│ │ ├── MyProductCard.jsx
+│ │ └── MyProducts.jsx
+│ │
+│ ├── layout/
+│ │ └── DefaultLayout.jsx
+│ │
+│ ├── pages/
+│ │ ├── ChiSiamo.jsx
+│ │ ├── DettaglioProdotto.jsx
+│ │ ├── Homepage.jsx
+│ │ ├── PageNotFound.jsx
+│ │ └── Prodotti.jsx
+│ │
+│ ├── App.css
+│ ├── App.jsx
+│ ├── index.css
+│ └── main.jsx
+│
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+├── README.md
+└── vite.config.js
+    
+🛠️ Tecnologie utilizzate 🛠️
+Layer	Tecnologie:
+React - Vite - JavaScript - CSS - Fetch API (backend fittizio)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✨ Il team aka Me Stessa ✨
+Sviluppato da:
+Claudia Sgalippa 
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📄 Licenza 📄
+Questo progetto è distribuito a scopo didattico. Ogni riferimento a cose e persone è puramente casuale, just for fun!
