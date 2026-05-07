@@ -3,7 +3,9 @@
 Quando hai campo libero sulla creazione di un sito di vendita di prodotti online, non lo fai più assurdo possibile?
 Così la mia testa ha deciso di mettere assieme alcuni dei personaggi "virali" degli ultimi anni, conditi da una "piccola" citazione di cultura pop anni '90.
 
-Di base però è la realizzazione frontend di un e-commerce e l’utilizzo di una fake store API come backend fittizio.
+Realizzazione frontend (React, Vite, JavaScript, CSS) di un e commerce e l’utilizzo di un fake store API come backend fittizio. Tre pagine principali con possibilità di navigazione tramite navbar e reindirizzamento a pagina dettaglio prodotto se cliccato. Rinvio a una landing page se viene cercata una pagina e/o un prodotto inesistente.
+
+Un progetto semplice ma pratico, che mi ha veramente divertito realizzare.
 
 ---
 
